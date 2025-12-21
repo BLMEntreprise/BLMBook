@@ -107,8 +107,8 @@ const canapes = [
   "caracteristique": ["Diamètre 22,1 mm"],
   "cartons": [],
   "poids": [],
-  "options": [],
-  "images_options": ["article-18-2.JPG","article-18.JPG","article-18-4.JPG"]
+  "options": ["vernis / accroche"],
+  "images_options": ["article-18-2.JPG","article-18-3.JPG","article-18-4.JPG"]
 },
 {
   "ref":"14",
@@ -260,15 +260,15 @@ card.appendChild(imagesContainer);
     caracteristique.innerHTML = `<strong>Caractéristiques :</strong> ${canape.caracteristique.join(' / ')}`;
     card.appendChild(caracteristique);
 
-    // Cartons
-    const cartons = document.createElement('p');
-    cartons.innerHTML = `<strong>Cartons (cm):</strong> ${canape.cartons.join(' / ')}`;
-    card.appendChild(cartons);
+    // // Cartons
+    // const cartons = document.createElement('p');
+    // cartons.innerHTML = `<strong>Cartons (cm):</strong> ${canape.cartons.join(' / ')}`;
+    // card.appendChild(cartons);
 
-    // Poids
-    const poids = document.createElement('p');
-    poids.innerHTML = `<strong>Poids (kg):</strong> ${canape.poids.join(' / ')}`;
-    card.appendChild(poids);
+    // // Poids
+    // const poids = document.createElement('p');
+    // poids.innerHTML = `<strong>Poids (kg):</strong> ${canape.poids.join(' / ')}`;
+    // card.appendChild(poids);
 
     }
 
