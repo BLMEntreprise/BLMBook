@@ -22,10 +22,8 @@
     const path = window.location.pathname;
     console.log(path);
 
-        if (path === "/canap" || path === "/canap.html") {
-      script ="main.js"; 
-    }
-  
+    
+    let script = "main.js"; // défaut
 
     if (path === "/bazar" || path === "/bazar.html") {
       script = "bazar.js";
