@@ -3,187 +3,187 @@ const canapes = [
 {
   "ref":"1",
   "denomination": "Epingle à linge plastique",
-  "image": "article-01-3.jpg",
+  "image": "article-01-3.JPG",
   "caracteristique": ["Conditionnement: 24 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-01-2.jpg","article-01-1.jpg"]
+  "images_options": ["article-01-2.JPG","article-01-1.JPG"]
 },
 {
   "ref":"2",
   "denomination": "Epingle à linge plastique",
-  "image": "article-02.jpg",
+  "image": "article-02.JPG",
   "caracteristique": ["Conditionnement: 24 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-02-1.jpg", "article-02-2.jpg"]
+  "images_options": ["article-02-1.JPG", "article-02-2.JPG"]
 },
 {
   "ref":"3",
   "denomination": "Epingle à linge plastique",
-  "image": "article-03-1.jpg",
+  "image": "article-03-1.JPG",
   "caracteristique": ["Conditionnement: 24 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-03-3.jpg", "article-02-2.jpg"]
+  "images_options": ["article-03-3.JPG", "article-02-2.JPG"]
 },
 {
   "ref":"5",
   "denomination": "Epingle à linge plastique",
-  "image": "article-05-2.jpg",
+  "image": "article-05-2.JPG",
   "caracteristique": ["Conditionnement: 12 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-05-1.jpg", "article-05-3.jpg"]
+  "images_options": ["article-05-1.JPG", "article-05-3.JPG"]
 },
 {
   "ref":"4",
   "denomination": "Epingle à linge en bois",
-  "image": "article-04-2.jpg",
+  "image": "article-04-2.JPG",
   "caracteristique": ["Conditionnement: 24 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-04-3.jpg", "article-04-1.jpg"]
+  "images_options": ["article-04-3.JPG", "article-04-1.JPG"]
 },
 {
   "ref":"11",
   "denomination": "Corde",
-  "image": "article-12-1.jpg",
+  "image": "article-12-1.JPG",
   "caracteristique": ["Conditionnement: 3 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-      "images_options": ["article-12-2.jpg","article-12-3.jpg"]
+      "images_options": ["article-12-2.JPG","article-12-3.JPG"]
 },
 {
   "ref":"13",
   "denomination": "Tête de balais standard",
-  "image": "article-14.jpg",
+  "image": "article-14.JPG",
   "caracteristique": ["Longueur 22cm/ Hauteur 7,5cm"],
   "cartons": [],
   "poids": [],
   "options": [],
-        "images_options": ["article-14-2.jpg","article-14-1.jpg"]
+        "images_options": ["article-14-2.JPG","article-14-1.JPG"]
 },
 {
   "ref":"16",
   "denomination": "Tête de balais",
-  "image": "article-17.jpg",
+  "image": "article-17.JPG",
   "caracteristique": ["Longueur 38cm / Hauteur 9cm"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-17-2.jpg","article-17-1.jpg"]
+  "images_options": ["article-17-2.JPG","article-17-1.JPG"]
 },
 {
   "ref":"9",
   "denomination": "Brosse à tapis",
-  "image": "article-10.jpg",
+  "image": "article-10.JPG",
   "caracteristique": ["Poil dur 18cm de longueur"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-10-1.jpg","article-10-2.jpg"]
+  "images_options": ["article-10-1.JPG","article-10-2.JPG"]
 },
 {
   "ref":"7",
   "denomination": "Moppe espagnole",
-  "image": "article-8.jpg",
+  "image": "article-8.JPG",
   "caracteristique": [""],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-8-1.jpg", "article-8-2.jpg"]
+  "images_options": ["article-8-1.JPG", "article-8-2.JPG"]
 },
 {
   "ref":"17",
   "denomination": "Manche à balais bois vernis",
-  "image": "article-18-1.jpg",
+  "image": "article-18-1.JPG",
   "caracteristique": ["Diamètre 22,1 mm"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-18-2.jpg","article-18-3.jpg","article-18-4.jpg"]
+  "images_options": ["article-18-2.JPG","article-18-3.JPG","article-18-4.JPG"]
 },
 {
   "ref":"14",
   "denomination": "Pelle + balayette plastique",
-  "image": "article-15.jpg",
+  "image": "article-15.JPG",
   "caracteristique": [""],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-15-2.jpg","article-15-1.jpg"]
+  "images_options": ["article-15-2.JPG","article-15-1.JPG"]
 },
 {
   "ref":"19",
   "denomination": "Balais microfibre manche inox",
-  "image": "article-20.jpg",
+  "image": "article-20.JPG",
   "caracteristique": ["Hauteur réglable"],
   "cartons": [],
   "poids": [],
   "options": [],
-    "images_options": ["article-20-2.jpg","article-20-3.jpg","article-20-4.jpg"]
+    "images_options": ["article-20-2.JPG","article-20-3.JPG","article-20-4.JPG"]
 },
 {
   "ref":"18",
   "denomination": "Moppe microfibre",
-  "image": "article-19.jpg",
+  "image": "article-19.JPG",
   "caracteristique": ["90 grammes"],
   "cartons": [],
   "poids": [],
   "options": [],
-    "images_options": ["article-19-2.jpg","article-19-3.jpg","article-19-4.jpg", "article-19-5.jpg"]
+    "images_options": ["article-19-2.JPG","article-19-3.JPG","article-19-4.JPG", "article-19-5.JPG"]
 },
 {
   "ref":"10",
   "denomination": "Brosse wc",
-  "image": "article-11.jpg",
+  "image": "article-11.JPG",
   "caracteristique": [""],
   "cartons": [],
   "poids": [],
   "options": ["longueur 50cm"],
-  "images_options": ["article-11-1.jpg","article-11-2.jpg"]
+  "images_options": ["article-11-1.JPG","article-11-2.JPG"]
 },
 {
   "ref":"12",
   "denomination": "Boule en inox avec support",
-  "image": "article-13.jpg",
+  "image": "article-13.JPG",
   "caracteristique": ["Conditionnement: 6 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-13-1.jpg"]
+  "images_options": ["article-13-1.JPG"]
 },
 {
   "ref":"6",
   "denomination": "Contenant liquide à 3 becs",
-  "image": "article-07.jpg",
+  "image": "article-07.JPG",
   "caracteristique": ["Volume 650ml"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-07-1.jpg", "article-07-2.jpg"]
+  "images_options": ["article-07-1.JPG", "article-07-2.JPG"]
 },
 {
   "ref":"8",
   "denomination": "Boite coton tige",
-  "image": "article-9.jpg",
+  "image": "article-9.JPG",
   "caracteristique": ["Conditionnement 12 pcs"],
   "cartons": [],
   "poids": [],
   "options": [],
-  "images_options": ["article-9-1.jpg","article-9-2.jpg"]
+  "images_options": ["article-9-1.JPG","article-9-2.JPG"]
 },
 {
   "ref":"15",
   "denomination": "Chariot de course à roulette",
-  "image": "article-16.jpg",
+  "image": "article-16.JPG",
   "caracteristique": [""],
   "cartons": [],
   "poids": [],
