@@ -108,7 +108,7 @@ const canapes = [
   "cartons": [],
   "poids": [],
   "options": ["vernis / accroche"],
-  "images_options": ["article-18-2.JPG","article-18-3.JPG","article-18-4.JPG"]
+  "images_options": ["article-18-2.JPG","article-18.JPG","article-18-4.JPG"]
 },
 {
   "ref":"14",
