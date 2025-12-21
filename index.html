@@ -1,37 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catalogue Canapés Haut de Gamme</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Import & Sourcing Chine | Tarifs préférentiels en conteneur</title>
+
+   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <h1>Catalogue Canapés Haut de Gamme</h1>
+ <div class="hero">
+  <h1>Import & Sourcing de Produits depuis la Chine</h1>
+  <p>
+    Spécialiste du sourcing fournisseur et de l’import par conteneur.
+    Nous accompagnons les professionnels avec des tarifs préférentiels,
+    une logistique maîtrisée et un suivi complet.
+  </p>
+</div>
 
-  <div id="catalogue" class="catalogue-grid"></div>
+<section class="services">
+  <div class="catalogue-grid">
+    <div class="card">
+      <h2>Sourcing fournisseurs</h2>
+      <p>
+        Recherche, sélection et négociation directe avec les usines.
+        Accès à un réseau fiable de fabricants.
+      </p>
+    </div>
 
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <span id="close-modal">&times;</span>
-    <img id="modal-img" src="" alt="Zoom canapé">
+    <div class="card">
+      <h2>Import par conteneur</h2>
+      <p>
+        Import en volumes (FCL / LCL) pour réduire les coûts et sécuriser
+        l’approvisionnement.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Tarifs préférentiels</h2>
+      <p>
+        Mutualisation des volumes, suppression des intermédiaires
+        et optimisation logistique.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Produits Bazar & Articles du quotidien</h2>
+      <p>
+        Articles ménagers, accessoires maison, produits utilitaires
+        disponibles à l’import.
+      </p>
+    </div>
   </div>
+</section>
 
-   <script>
-    const path = window.location.pathname;
-    console.log(path);
+<section class="process">
+  <h2>Notre méthode</h2>
+  <p>
+    1. Analyse du besoin<br>
+    2. Sourcing & négociation usine<br>
+    3. Échantillons & validation<br>
+    4. Production & contrôle qualité<br>
+    5. Import par conteneur & livraison
+  </p>
+</section>
 
-    
-    let script = "main.js"; // défaut
+<section class="cta">
+  <h2>Vous avez un projet d’import ?</h2>
+  <p>Parlons de vos besoins et de vos volumes</p>
+  <a>Contactez nous au 06 75 33 56 78</a>
+</section>
 
-    if (path === "/bazar" || path === "/bazar.html") {
-      script = "bazar.js";
-    }
+  <!-- FOOTER -->
+  <footer>
+    © 2025 – BLM Society | Tous droits réservés
+  </footer>
 
-    const s = document.createElement("script");
-    s.src = script;
-    document.body.appendChild(s);
-  </script>
+<script>
+  // Récupère le chemin actuel
+  let path = window.location.pathname;
+
+  // Normalisation : on enlève le "/" initial
+  if (path.startsWith("/")) path = path.slice(1);
+
+  // Redirection selon le path
+  if (path === "bazar") {
+    window.location.href = "bazar.html";
+  } else if (path === "canap") {
+    window.location.href = "canap.html";
+  } else {
+    // par défaut : page principale
+    window.location.href = "index.html"; // ou index.html si tu veux rester ici
+  }
+</script>
 </body>
 </html>
