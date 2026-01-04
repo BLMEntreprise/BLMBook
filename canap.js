@@ -258,7 +258,17 @@ const canapes = [
     "cartons": ["—"],
     "poids": ["—"],
     "options": ["repose pied"]
+  },
+    {
+    "ref": "YY-32",
+    "image": "YY-32.jpg",
+    "tailles": ["225 x 188 x 64"],
+    "cartons": ["—"],
+    "poids": ["—"],
+    "options": ["Lit"],
+    "images_options": ["YY-32.MP4"]
   }
+
 ]
 
 generateCatalogue(canapes);
@@ -305,18 +315,36 @@ function generateCatalogue(canapes) {
     card.appendChild(poids);
 
 
-      if (canape.images_options) {
-        const optionsDiv = document.createElement('div');
-        optionsDiv.className = 'options-images';
-        canape.images_options.forEach(optImg => {
-          const optImage = document.createElement('img');
-          optImage.src = `images/${optImg}`;
-          optImage.alt = canape.ref + ' option';
-          optImage.onclick = () => showModal(optImage.src);
-          optionsDiv.appendChild(optImage);
-        });
-        card.appendChild(optionsDiv);
-      }
+if (canape.images_options) {
+  const optionsDiv = document.createElement('div');
+  optionsDiv.className = 'options-images';
+
+  canape.images_options.forEach(optMedia => {
+    const extension = optMedia.split('.').pop().toLowerCase();
+
+    // 👉 Si c’est une vidéo MP4
+    if (extension === 'mp4') {
+      const video = document.createElement('video');
+      video.src = `images/${optMedia}`;
+      video.controls = true;
+      video.width = 150; // optionnel
+      video.muted = true;
+      video.onclick = () => showModal(video.src);
+      optionsDiv.appendChild(video);
+
+    // 👉 Sinon, c’est une image
+    } else {
+      const img = document.createElement('img');
+      img.src = `images/${optMedia}`;
+      img.alt = canape.ref + ' option';
+      img.onclick = () => showModal(img.src);
+      optionsDiv.appendChild(img);
+    }
+  });
+
+  card.appendChild(optionsDiv);
+}
+
     }
 
     catalogue.appendChild(card);

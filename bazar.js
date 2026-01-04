@@ -188,6 +188,16 @@ const canapes = [
   "cartons": [],
   "poids": [],
   "options": []
+},
+{
+  "ref":"21",
+  "denomination": "Sac cabas multi-usage",
+  "image": "article-21-2.JPG",
+  "caracteristique": ["Sac de transport et rangement. 5 tailles disponibles: 50 x 35 x 20 - 60 x 45 x 20 - 70 x 55 x 23 - 80 x 60 x 26 - 90 x 60 x 30"],
+  "cartons": [],
+  "poids": [],
+  "options": [],
+    "images_options": ["article-21-1.JPG"]
 }
 ]
 
