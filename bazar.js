@@ -4,7 +4,7 @@ const canapes = [
   "ref":"1",
   "denomination": "Epingle à linge plastique",
   "image": "article-01-3.JPG",
-  "caracteristique": ["Conditionnement: 24 pcs"],
+  "caracteristique": ["Conditionnement: par 24 x 144 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -14,7 +14,7 @@ const canapes = [
   "ref":"2",
   "denomination": "Epingle à linge plastique",
   "image": "article-02.JPG",
-  "caracteristique": ["Conditionnement: 24 pcs"],
+  "caracteristique": ["Conditionnement: par 24 x 144 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -24,7 +24,7 @@ const canapes = [
   "ref":"3",
   "denomination": "Epingle à linge plastique",
   "image": "article-03-1.JPG",
-  "caracteristique": ["Conditionnement: 24 pcs"],
+  "caracteristique": ["Conditionnement: par 24 x 144 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -34,7 +34,7 @@ const canapes = [
   "ref":"5",
   "denomination": "Epingle à linge plastique",
   "image": "article-05-2.JPG",
-  "caracteristique": ["Conditionnement: 12 pcs"],
+  "caracteristique": ["Conditionnement: par 12 x 144 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -44,7 +44,7 @@ const canapes = [
   "ref":"4",
   "denomination": "Epingle à linge en bois",
   "image": "article-04-2.JPG",
-  "caracteristique": ["Conditionnement: 24 pcs"],
+  "caracteristique": ["Conditionnement:par 24 x 144 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -52,9 +52,9 @@ const canapes = [
 },
 {
   "ref":"11",
-  "denomination": "Corde",
+  "denomination": "Corde à linge",
   "image": "article-12-1.JPG",
-  "caracteristique": ["Conditionnement: 3 pcs"],
+  "caracteristique": ["Conditionnement: par 3 x 240 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -64,7 +64,7 @@ const canapes = [
   "ref":"13",
   "denomination": "Tête de balais standard",
   "image": "article-14.JPG",
-  "caracteristique": ["Longueur 22cm/ Hauteur 7,5cm"],
+  "caracteristique": ["Longueur 22cm. Hauteur 7,5cm. Conditionnement: 100 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -74,7 +74,7 @@ const canapes = [
   "ref":"16",
   "denomination": "Tête de balais",
   "image": "article-17.JPG",
-  "caracteristique": ["Longueur 38cm / Hauteur 9cm"],
+  "caracteristique": ["Longueur 38cm. Hauteur 9cm. Conditionnement: 50 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -84,7 +84,7 @@ const canapes = [
   "ref":"9",
   "denomination": "Brosse à tapis",
   "image": "article-10.JPG",
-  "caracteristique": ["Poil dur 18cm de longueur"],
+  "caracteristique": ["Poil dur. 18cm de longueur. Conditionnement: 240 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -94,7 +94,7 @@ const canapes = [
   "ref":"7",
   "denomination": "Moppe espagnole",
   "image": "article-8.JPG",
-  "caracteristique": [""],
+  "caracteristique": ["Longueur du poil: 35cm. Conditionnement: colis de 100 pièces."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -104,7 +104,7 @@ const canapes = [
   "ref":"17",
   "denomination": "Manche à balais bois vernis",
   "image": "article-18-1.JPG",
-  "caracteristique": ["Diamètre 22,1 mm"],
+  "caracteristique": ["Diamètre 22,1mm. Longueur du manche: 120cm. Conditionnement: 50 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": ["vernis / accroche"],
@@ -112,9 +112,9 @@ const canapes = [
 },
 {
   "ref":"14",
-  "denomination": "Pelle + balayette plastique",
+  "denomination": "Pelle + balayette",
   "image": "article-15.JPG",
-  "caracteristique": [""],
+  "caracteristique": ["Matière plastique. Conditionnement: 50 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -122,9 +122,9 @@ const canapes = [
 },
 {
   "ref":"19",
-  "denomination": "Balais microfibre manche inox",
+  "denomination": "Balais microfibre ",
   "image": "article-20.JPG",
-  "caracteristique": ["Hauteur réglable"],
+  "caracteristique": ["Manche inox. Hauteur 110cm (réglable). Conditionnement: 60 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -134,7 +134,7 @@ const canapes = [
   "ref":"18",
   "denomination": "Moppe microfibre",
   "image": "article-19.JPG",
-  "caracteristique": ["90 grammes"],
+  "caracteristique": ["Microfibre 90 grammes. Longueur: 40cm. Largeur: 12cm. Conditionnement: 200 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -144,17 +144,17 @@ const canapes = [
   "ref":"10",
   "denomination": "Brosse wc",
   "image": "article-11.JPG",
-  "caracteristique": [""],
+  "caracteristique": ["Longueur 50cm. Conditionnement: 80 pièces par colis."],
   "cartons": [],
   "poids": [],
-  "options": ["longueur 50cm"],
+  "options": [""],
   "images_options": ["article-11-1.JPG","article-11-2.JPG"]
 },
 {
   "ref":"12",
   "denomination": "Boule en inox avec support",
   "image": "article-13.JPG",
-  "caracteristique": ["Conditionnement: 6 pcs"],
+  "caracteristique": ["Conditionnement: par 6 x 120 pièces par colis"],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -164,7 +164,7 @@ const canapes = [
   "ref":"6",
   "denomination": "Contenant liquide à 3 becs",
   "image": "article-07.JPG",
-  "caracteristique": ["Volume 650ml"],
+  "caracteristique": ["Volume 650ml. Conditionnement: 200 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -174,7 +174,7 @@ const canapes = [
   "ref":"8",
   "denomination": "Boite coton tige",
   "image": "article-9.JPG",
-  "caracteristique": ["Conditionnement 12 pcs"],
+  "caracteristique": ["Conditionnement: par 12 x 240 pièces par colis"],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -184,7 +184,7 @@ const canapes = [
   "ref":"15",
   "denomination": "Chariot de course à roulette",
   "image": "article-16.JPG",
-  "caracteristique": [""],
+  "caracteristique": ["Hauteur: 95cm. Largeur: 20cm. Conditionnement: 10 pièces par colis."],
   "cartons": [],
   "poids": [],
   "options": []
@@ -193,7 +193,7 @@ const canapes = [
   "ref":"21",
   "denomination": "Sac cabas multi-usage",
   "image": "article-21-2.JPG",
-  "caracteristique": ["Sac de transport et rangement. 5 tailles disponibles: 50 x 35 x 20 - 60 x 45 x 20 - 70 x 55 x 23 - 80 x 60 x 26 - 90 x 60 x 30"],
+  "caracteristique": ["Sac de transport et rangement. Conditionnement: 120 pièces par colis. 5 tailles disponibles: 50 x 35 x 20 - 60 x 45 x 20 - 70 x 55 x 23 - 80 x 60 x 26 - 90 x 60 x 30"],
   "cartons": [],
   "poids": [],
   "options": [],
@@ -260,10 +260,11 @@ card.appendChild(imagesContainer);
     card.appendChild(title);
 
             // Options
-    if (canape.options) {
-      const options = document.createElement('p');
-      options.innerHTML = `<strong>Options:</strong> ${canape.options.join(' / ')}`;
-      card.appendChild(options);
+    // if (canape.options) {
+    //   const options = document.createElement('p');
+    //   options.innerHTML = `<strong>Options:</strong> ${canape.options.join(' / ')}`;
+    //   card.appendChild(options);
+    // }
 
     // caracteristique
     const caracteristique = document.createElement('p');
@@ -280,7 +281,7 @@ card.appendChild(imagesContainer);
     // poids.innerHTML = `<strong>Poids (kg):</strong> ${canape.poids.join(' / ')}`;
     // card.appendChild(poids);
 
-    }
+
 
     catalogue.appendChild(card);
   });
